@@ -18,7 +18,7 @@ int main() {
 	R = N1 * N2;
 	cout << "A multiplicacao dos dois numeros e: " << R << endl;
 	R = N1 / N2;
-	cout << "A divisão dos dois numeros e: " << R << endl;
+	cout << "A divisao dos dois numeros e: " << R << endl;
 	R = N1 % N2;
 	cout << "O resto dos numeros e: " << R << endl;
 	return 0;
