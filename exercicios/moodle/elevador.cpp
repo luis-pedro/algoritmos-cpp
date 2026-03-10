@@ -23,8 +23,6 @@ int main() {
     }
 
     D = R1 + R2;
-    cout << sqrt(pow(L,2)+pow(C,2)) << endl;
-    cout << D << endl;
 
     if(((D <= L) && (dm <= C)) || ((D <= C) && (dm <= L)) || ((sqrt(pow(L,2)+pow(C,2)) >= D) && (D-(R1-R2) <= L) && (D-(R1-R2) <= C))){
         cout << "S";
