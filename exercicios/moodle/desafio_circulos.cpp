@@ -9,21 +9,21 @@ int main() {
     double X1, Y1, R1; //primeiro círculo
     double X2, Y2, R2; //segundo círculo
 
-    cin >> X1 >> Y1 >> R1;
-    cin >> X2 >> Y2 >> R2;
+    cin >> X1 >> Y1 >> R1; //primeiro círculo (leitura)
+    cin >> X2 >> Y2 >> R2; //segundo círculo (leitura)
 
-    double D = sqrt(pow(X2 - X1,2) + pow(Y2 - Y1,2));
+    double D = sqrt(pow(X2 - X1,2) + pow(Y2 - Y1,2)); //distância
 
-    double r = min(R1,R2);
-    double R = max(R1,R2);
+    double r = min(R1,R2); //raio 1
+    double R = max(R1,R2); //raio 2
 
-    double A;
+    double A; //área
 
     if(D >= R1 + R2){
-        cout << "0" << endl;
+        A = 0;
     }
     else if(D <= fabs(R1 - R2)){
-        A = M_PI * r * r;
+        A = 3.14159 * r * r;
     }
     else{
 
