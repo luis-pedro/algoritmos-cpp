@@ -17,6 +17,8 @@ int main(){
         cout << "Normal";
     } else if((imc >= 25) && (imc < 30)){
         cout << "Sobrepeso";
+    } else if(imc >=30){
+        cout << "Obeso";
     }
     return 0;
 }
