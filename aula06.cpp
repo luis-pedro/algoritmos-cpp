@@ -9,7 +9,7 @@ int main(){
     cout << "Digite seu nome: " << endl;
     getline(cin >> ws, name);
     
-    cout << "É um prazer lhe conhecer, " << name << endl;
+    cout << "E um prazer lhe conhecer, " << name << endl;
 
     return 0;
 }
