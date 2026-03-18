@@ -21,11 +21,11 @@ int main(){
     getline(cin >> ws, csenha);
 
     if(idd < 0 || idd > 200){
-        cout << "Idade invalida" << endl;
+        cout << "Idade invalida, tente novamente." << endl;
     } else if(senha == csenha){
         cout << "Verificacao bem sucedida!" << endl;
     } else{
-        cout << "As senhas nao batem, tente novamente" << endl;
+        cout << "As senhas nao batem, tente novamente." << endl;
     }
 
     return 0;
