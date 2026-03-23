@@ -9,7 +9,7 @@ int main(){
 
     int idd = 0; // Idade das pessoas
     int Sidd = 0; // Soma das idades
-    int Midd = 0; // Média das idades
+    float Midd = 0; // Média das idades
 
     for(int i = 0 ; i < N ; i++){
         cout << "Digite a idade da pessoa " << i + 1 << " : ";
