@@ -21,6 +21,28 @@ int main(){
         if(B == "AVE"){
             if(C == "CARNIVORO"){
                 cout << "aguia";
+            } else{
+                cout << "pomba";
+            }
+        } else{
+            if(C == "ONIVORO"){
+                cout << "homem";
+            } else{
+                cout << "vaca";
+            }
+        }
+    } else{
+        if(B == "INSETO"){
+            if(C == "HEMATOFAGO"){
+                cout << "pulga";
+            } else{
+                cout << "lagarta";
+            }
+        } else{
+            if(C == "ONIVORO"){
+                cout << "minhoca";
+            } else{
+                cout << "sanguessuga";
             }
         }
     }
