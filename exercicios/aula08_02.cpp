@@ -9,12 +9,12 @@ int main(){
     cin >> idd;
     
     while(idd > 0){
-        if(idd > 7){
+        if(idd < 7){
             A += 1;
         }
 
         cin >> idd;
     }
 
-    cout << A << " idades maiores que 7 anos" << endl;
+    cout << A << " idades menores que 7 anos" << endl;
 }
