@@ -3,6 +3,10 @@
 
 using namespace std;
 
+//Exercício resolvido por:
+//Luis Pedro do Carmo Costa
+//Davi Amorim Santos
+
 int main(){
     int X = 0; 
     float dist = 0, comb = 0, cons = 0; 
