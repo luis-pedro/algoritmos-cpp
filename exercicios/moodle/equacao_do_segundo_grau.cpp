@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cmath>
+#include <iomanip>
 
 using namespace std;
 
@@ -10,15 +11,24 @@ float calc_delta(float a, float b, float c){
 
     return D;
 
-    
 }
 
-int calc_raizes(float a, float b, float c, float &x1, float &x2){
+int calc_raizes(float a, float b, float c, float D,float &x1, float &x2){
 
+    if(D < 0){
+        return 1;
+    }
+
+    x1 = ((- b) - sqrt(D)) / ( 2 * a );
+
+    x2 = ((- b) + sqrt(D)) / ( 2 * a );
+
+    return 0;
 }
 
 int main(){
-    int a,b,c,delta,raizes,r1,r2;
+    float a,b,c,delta,r1,r2;
+    int resultado;
 
     cin >> a >> b >> c;
 
@@ -27,6 +37,15 @@ int main(){
 
     } else{
         cout << "Impossivel calcular";
+    }
+
+    resultado = calc_raizes(a,b,c,delta,r1,r2);
+
+    if(resultado == 1){
+        cout << "Impossivel calcular" << endl;
+    } else{
+        cout << fixed << setprecision(5) << "x1 = " << r1 << endl;
+        cout << fixed << setprecision(5) << "x2 = " << r2 << endl;
     }
 
     return 0;
