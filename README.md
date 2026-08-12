@@ -1,6 +1,6 @@
 # Algoritmos e Estruturas de Dados – INATEL (C++)
 
-Este repositório reúne os exercícios, implementações e práticas desenvolvidas na disciplina de C02 - Algoritmos e Estruturas de Dados durante a graduação em Engenharia de Computação no INATEL.
+Este repositório reúne os exercícios, implementações e práticas desenvolvidas na disciplina de Algoritmos e Estruturas de Dados durante a graduação em Engenharia de Computação no INATEL.
 
 ## 📌 Objetivo
 
