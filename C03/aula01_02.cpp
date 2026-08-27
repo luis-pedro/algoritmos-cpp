@@ -11,11 +11,11 @@ int fib(int n){
 }
 
 int main(){
-    int n, fib;
+    int n;
 
     cin >> n;
 
-    cout << " " << fib(n) << endl;
+    cout << fib(n) << endl;
 
     return 0;
 }
