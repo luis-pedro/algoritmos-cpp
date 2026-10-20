@@ -10,7 +10,7 @@ int main(){
     cin >> k >> m;
     
     for( i = 0 ; i < m ; i++){
-        h1 = hash1(k, i, m);
+        //h1 = hash1(k, i, m);
         
         cout << h1 << " ";
     }
